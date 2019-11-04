@@ -8,7 +8,7 @@
 <script>
   import TodayItem from "./TodayItem";
   export default {
-    name: "index.vue",
+    name: "TodayList",
     components: {
       TodayItem
     }
