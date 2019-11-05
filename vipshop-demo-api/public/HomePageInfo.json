@@ -1,0 +1,24 @@
+{
+  "search": "大家正在搜索：护肤套装",
+  "navList": ["今日推荐","最后疯抢","美妆","母婴","国际","家电","家居","生活","唯品·奢"],
+  "footerInfo": {
+    "footToolbar": [
+      {
+        "icon": "icon-jijiangdaoqi",
+        "title": "即将上线"
+      },
+      {
+        "icon": "icon-tuangou1",
+        "title": "唯品团购"
+      },
+      {
+        "icon": "icon-zhengpinbaozheng",
+        "title": "正品保证"
+      },
+      {
+        "icon": "icon-kefu",
+        "title": "唯品客服"
+      }
+    ]
+  }
+}

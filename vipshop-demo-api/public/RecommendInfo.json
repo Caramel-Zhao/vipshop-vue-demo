@@ -1,0 +1,35 @@
+{
+  "bannerImg": ["http://h2.appsimg.com/a.appsimg.com/upload/flow/2018/12/19/114/15452109808538.jpg"],
+  "menuListTop": [{
+    "id": "menu001",
+    "src": "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/09/21/12/15690254921468.png"
+  },{
+    "id": "menu002",
+    "src": "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/09/21/54/15690256701075.png"
+  },{
+    "id": "menu003",
+    "src": "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/09/25/167/15694066080411.png"
+  },{
+    "id": "menu004",
+    "src": "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/09/23/176/15692041035652.png"
+  },{
+    "id": "menu005",
+    "src": "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/09/21/113/15690303240237.png"
+  }],
+  "menuListBottom": [{
+    "id": "menu006",
+    "src": "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/09/21/73/15690260639835.png"
+  },{
+    "id": "menu007",
+    "src": "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/10/24/150/15718848624926.png"
+  },{
+    "id": "menu008",
+    "src": "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/09/11/133/15681948470878.png"
+  },{
+    "id": "menu009",
+    "src": "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/09/23/86/15692044972477.png"
+  },{
+    "id": "menu010",
+    "src": "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/16/132/15632721405126.png"
+  }]
+}

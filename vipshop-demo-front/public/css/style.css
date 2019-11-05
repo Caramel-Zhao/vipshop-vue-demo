@@ -70,7 +70,7 @@ nav {
       color: #3f444f; }
     nav .nav-items .nav-item.is-active {
       color: #d040a3;
-      border-bottom: .02rem solid #d040a3; }
+      border-bottom: .04rem solid #d040a3; }
   nav .nav-list {
     width: .39rem;
     text-align: center;

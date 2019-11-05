@@ -1,30 +1,42 @@
 <template>
   <section>
-    <Swiper />
-    <Menu />
-    <Adv />
-    <Grab />
-    <LastGrab />
-    <Today />
+    <ReBanner v-if="recommendInfo" :data="recommendInfo.bannerImg" />
+    <ReMenu v-if="recommendInfo" :data="recommendInfo" />
+    <ReAdv />
+    <ReGrab />
+    <ReLastGrab />
+    <ReToday />
   </section>
 </template>
 
 <script>
-  import Swiper from "../components/Recommend/Swiper";
-  import Menu from "../components/Recommend/Menu";
-  import Adv from "../components/Recommend/Adv";
-  import Grab from "../components/Recommend/Grab";
-  import LastGrab from "../components/Recommend/LastGrab";
-  import Today from "../components/Recommend/Today"
+  import ReBanner from "../components/Recommend/ReBanner";
+  import ReMenu from "../components/Recommend/ReMenu";
+  import ReAdv from "../components/Recommend/ReAdv";
+  import ReGrab from "../components/Recommend/ReGrab";
+  import ReLastGrab from "../components/Recommend/ReLastGrab";
+  import ReToday from "../components/Recommend/ReToday"
   export default {
     name: "Recommend",
     components: {
-      Swiper,
-      Menu,
-      Adv,
-      Grab,
-      LastGrab,
-      Today
+      ReBanner,
+      ReMenu,
+      ReAdv,
+      ReGrab,
+      ReLastGrab,
+      ReToday
+    },
+    data() {
+      return {
+        recommendInfo: null
+      }
+    },
+    created() {
+      fetch("http://localhost:3000/api/recommendInfo").then((res) => {
+        res.json().then((data) => {
+          this.recommendInfo = data
+        })
+      })
     }
   }
 </script>
