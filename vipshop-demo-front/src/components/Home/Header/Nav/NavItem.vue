@@ -1,5 +1,5 @@
 <template>
-  <li><a href="#" class="nav-item">{{data}}</a></li>
+  <li><router-link :to=data.to class="nav-item">{{data.title}}</router-link></li>
 </template>
 
 <script>

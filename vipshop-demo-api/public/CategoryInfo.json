@@ -1,0 +1,65 @@
+{
+  "select": [
+    {
+      "src": "recommend",
+      "img": "http://h2.appsimg.com/b.appsimg.com/upload/momin/2018/12/03/28/1543820113805.png",
+      "title": "今日推荐"
+    },
+    {
+      "src": "",
+      "img": "http://h2.appsimg.com/b.appsimg.com/upload/momin/2018/08/09/77/1533802051022.png",
+      "title": "最后疯抢"
+    },
+    {
+      "src": "",
+      "img": "http://h2.appsimg.com/b.appsimg.com/2017/05/17/844/1495012505829.png",
+      "title": "美妆"
+    },
+    {
+      "src": "",
+      "img": "http://h2.appsimg.com/b.appsimg.com/upload/momin/2018/09/26/1/1537956054861.png",
+      "title": "母婴"
+    },
+    {
+      "src": "",
+      "img": "http://h2.appsimg.com/b.appsimg.com/upload/momin/2018/09/26/174/1537955975711.png",
+      "title": "国际"
+    },
+    {
+      "src": "",
+      "img": "http://h2.appsimg.com/b.appsimg.com/upload/momin/2018/05/18/54/1526645014855.png",
+      "title": "家电"
+    },
+    {
+      "src": "",
+      "img": "http://h2.appsimg.com/b.appsimg.com/upload/momin/2018/05/18/99/1526645175358.png",
+      "title": "家居"
+    },
+    {
+      "src": "",
+      "img": "http://h2.appsimg.com/b.appsimg.com/2017/05/23/653/1495508530492.png",
+      "title": "生活"
+    },
+    {
+      "src": "",
+      "img": "http://h2.appsimg.com/b.appsimg.com/upload/momin/2018/01/18/119/1516257961448.png",
+      "title": "唯品·奢"
+    },
+    {
+      "src": "",
+      "img": "",
+      "title": ""
+    },
+    {
+      "src": "",
+      "img": "",
+      "title": ""
+    },
+    {
+      "src": "",
+      "img": "",
+      "title": ""
+    }
+  ],
+  "more": []
+}

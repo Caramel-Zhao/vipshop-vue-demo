@@ -34,4 +34,18 @@ router.get('/recommendInfo', (req, res, next) => {
   })
 });
 
+router.get('/categoryInfo', (req, res, next) => {
+  let file = path.join(__dirname, "../public/CategoryInfo.json");
+  fs.readFile(file, 'utf-8', (err, data) => {
+    if (err) {
+      res.send({
+        status: -1,
+        msg: err
+      })
+    } else {
+      res.send(data)
+    }
+  })
+});
+
 module.exports = router;

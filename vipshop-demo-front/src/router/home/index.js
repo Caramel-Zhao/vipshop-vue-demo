@@ -1,15 +1,46 @@
 export default {
-  path: '/',
-  name: 'home',
+  path: '/home',
   component: () => import('@/views/Home'),
   children: [
     {
-      path: '',
-      redirect: 'recommend'
+      path : '/home',
+      redirect : '/home/recommend'
     },
     {
       path: 'recommend',
-      component: () => import('@/views/Recommend')
-    }
+      component: () => import('@/views/Home/Recommend')
+    },
+    {
+      path: 'last',
+      component: () => import('@/views/Home/Last')
+    },
+    {
+      path: 'beauty',
+      component: () => import('@/views/Home/Beauty')
+    },
+    {
+      path: 'maternal',
+      component: () => import('@/views/Home/Maternal')
+    },
+    {
+      path: 'international',
+      component: () => import('@/views/Home/International')
+    },
+    {
+      path: 'appliance',
+      component: () => import('@/views/Home/Appliance')
+    },
+    {
+      path: 'household',
+      component: () => import('@/views/Home/Household')
+    },
+    {
+      path: 'life',
+      component: () => import('@/views/Home/Life')
+    },
+    {
+      path: 'luxury',
+      component: () => import('@/views/Home/Luxury')
+    },
   ]
 }

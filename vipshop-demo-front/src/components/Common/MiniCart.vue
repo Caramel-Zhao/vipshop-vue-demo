@@ -26,6 +26,7 @@
     background-color: rgba(25,29,38,.95);
     border-radius: 50%;
     font-size: 0;
+    z-index: 100;
 
     .icon-iconfontcart-copy {
       color: #fff;

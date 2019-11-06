@@ -1,20 +1,24 @@
 <template>
   <div>
-    <span class="son">OPPO品牌钜献-手机专场</span>
-    <span class="son">剩2天</span>
+    <span class="son">{{data.title}}</span>
+    <span class="son">剩{{data.time}}天</span>
     <div>
       <span>4.6</span>
-      <span> 折起</span>
+      <span class="c-color"> {{data.tag}}</span>
+      <span class="c-color">{{data.text}}</span>
     </div>
   </div>
 </template>
 
 <script>
   export default {
-    name: "ReTodayItemBottom"
+    name: "ReTodayItemBottom",
+    props: ["data"]
   }
 </script>
 
 <style scoped>
-
+  .c-color {
+    color: #333!important;
+  }
 </style>

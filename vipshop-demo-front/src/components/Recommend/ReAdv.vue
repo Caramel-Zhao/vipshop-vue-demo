@@ -1,19 +1,20 @@
 <template>
   <section class="adv">
     <div class="adv-top">
-      <img src="@/assets/img/15707845732671.jpg" alt="">
+      <img :src=data.title alt="">
     </div>
     <div class="adv-list">
-      <a href="#"><img src="@/assets/img/15709594107520.jpg" alt=""></a>
-      <a href="#"><img src="@/assets/img/15709611492967.jpg" alt=""></a>
-      <a href="#"><img src="@/assets/img/15709573364901.jpg" alt=""></a>
+      <a v-for="(item,i) in data.content" :key="i" href="#">
+        <img :src=item alt="">
+      </a>
     </div>
   </section>
 </template>
 
 <script>
   export default {
-    name: "ReAdv"
+    name: "ReAdv",
+    props: ["data"]
   }
 </script>
 

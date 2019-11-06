@@ -1,7 +1,7 @@
 <template>
   <section class="today">
-    <img src="@/assets/img/1566543733364.jpg" alt="">
-    <ReTodayItem />
+    <img src="https://h2.appsimg.com/b.appsimg.com/upload/momin/2019/08/23/111/1566543733364.jpg" alt="">
+    <ReTodayItem :data="item" :i="i" v-for="(item,i) in data" :key="i" />
     <ReTodayListEnd />
   </section>
 </template>
@@ -14,7 +14,8 @@
     components: {
       ReTodayItem,
       ReTodayListEnd
-    }
+    },
+    props: ["data"]
   }
 </script>
 

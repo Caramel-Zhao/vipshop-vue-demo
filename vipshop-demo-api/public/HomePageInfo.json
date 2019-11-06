@@ -1,6 +1,43 @@
 {
   "search": "大家正在搜索：护肤套装",
-  "navList": ["今日推荐","最后疯抢","美妆","母婴","国际","家电","家居","生活","唯品·奢"],
+  "navList": [
+    {
+      "title": "今日推荐",
+      "to": "recommend"
+    },
+    {
+      "title": "最后疯抢",
+      "to": "last"
+    },
+    {
+      "title": "美妆",
+      "to": "beauty"
+    },
+    {
+      "title": "母婴",
+      "to": "maternal"
+    },
+    {
+      "title": "国际",
+      "to": "international"
+    },
+    {
+      "title": "家电",
+      "to": "appliance"
+    },
+    {
+      "title": "家居",
+      "to": "household"
+    },
+    {
+      "title": "生活",
+      "to": "life"
+    },
+    {
+      "title": "唯品·奢",
+      "to": "luxury"
+    }
+  ],
   "footerInfo": {
     "footToolbar": [
       {

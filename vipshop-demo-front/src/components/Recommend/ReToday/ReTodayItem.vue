@@ -2,8 +2,8 @@
   <div class="today-wrap">
     <div class="today-con">
 <!--      <img src="@/assets/img/ias_157172450740357_1135x545_85.jpg" alt="">-->
-      <ReTodayItemTop />
-      <ReTodayItemBottom />
+      <ReTodayItemTop :data="data" />
+      <ReTodayItemBottom :data="data" />
 <!--      <div>-->
 <!--        <span class="son">OPPO品牌钜献-手机专场</span>-->
 <!--        <span class="son">剩2天</span>-->
@@ -24,7 +24,8 @@
     components: {
       ReTodayItemTop,
       ReTodayItemBottom
-    }
+    },
+    props: ["data"]
   }
 </script>
 

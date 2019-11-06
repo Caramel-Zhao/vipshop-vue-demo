@@ -1,7 +1,7 @@
 <template>
   <section class="header-wrap">
     <HeaderSearch v-if="data" :data="data.search" />
-    <Nav v-if="data" :data="data.navList" />
+    <Nav v-if="data" :data="data.navList" :flag="flag" />
   </section>
 </template>
 
@@ -14,7 +14,7 @@
       HeaderSearch,
       Nav
     },
-    props: ["data"]
+    props: ["data","flag"]
   }
 </script>
 

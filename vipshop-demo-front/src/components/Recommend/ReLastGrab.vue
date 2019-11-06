@@ -1,26 +1,12 @@
 <template>
   <section class="moudle-1">
-    <img class="moudle-bg" src="@/assets/img/mst_bddb8d91ea974b4103ff7b7dc6eac27a_750x515_90.png" alt="">
+    <img class="moudle-bg" src="https://h2.appsimg.com/b.appsimg.com/upload/mst/2019/10/29/35/mst_d48a6cdcdf491b1361d6ed8539b3855a_750x515_90.png" alt="">
     <div class="moudle-sub">
-      <div class="moudle-item">
-        <img src="@/assets/img/ff13fd65-410a-4ea0-a7ff-636a2f36c2d5_420_531_224x283_90.jpg" alt="">
+      <div class="moudle-item" v-for="(item,i) in data" :key="i">
+        <img :src=item.img alt="">
         <div class="item-price">
           <i class="tag">疯抢价</i>
-          <i class="price">¥159</i>
-        </div>
-      </div>
-      <div class="moudle-item">
-        <img src="@/assets/img/ff13fd65-410a-4ea0-a7ff-636a2f36c2d5_420_531_224x283_90.jpg" alt="">
-        <div class="item-price">
-          <i class="tag">疯抢价</i>
-          <i class="price">¥159</i>
-        </div>
-      </div>
-      <div class="moudle-item">
-        <img src="@/assets/img/ff13fd65-410a-4ea0-a7ff-636a2f36c2d5_420_531_224x283_90.jpg" alt="">
-        <div class="item-price">
-          <i class="tag">疯抢价</i>
-          <i class="price">¥159</i>
+          <i class="price">¥{{item.price}}</i>
         </div>
       </div>
     </div>
@@ -29,7 +15,8 @@
 
 <script>
   export default {
-    name: "ReLastGrab"
+    name: "ReLastGrab",
+    props: ["data"]
   }
 </script>
 

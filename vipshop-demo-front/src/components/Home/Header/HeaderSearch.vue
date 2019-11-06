@@ -1,6 +1,6 @@
 <template>
   <header>
-    <span class="login">登录</span>
+    <router-link tag="span" to="/login" class="login">登录</router-link>
     <input type="text" class="search" :placeholder="data" />
     <span class="iconfont icon-more"></span>
   </header>
