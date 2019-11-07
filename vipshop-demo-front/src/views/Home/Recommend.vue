@@ -15,7 +15,8 @@
   import ReAdv from "../../components/Recommend/ReAdv";
   import ReGrab from "../../components/Recommend/ReGrab";
   import ReLastGrab from "../../components/Recommend/ReLastGrab";
-  import ReToday from "../../components/Recommend/ReToday/index"
+  import ReToday from "../../components/Recommend/ReToday/index";
+  import homeApi from "../../apis/homeApi";
   export default {
     name: "Recommend",
     components: {
@@ -31,12 +32,13 @@
         recommendInfo: null
       }
     },
-    created() {
-      fetch("http://localhost:3000/api/recommendInfo").then((res) => {
-        res.json().then((data) => {
-          this.recommendInfo = data
-        })
-      })
+    methods: {
+      async _initRecommendInfo() {
+        this.recommendInfo = await homeApi.getRecommendInfo()
+      }
+    },
+    beforeMount() {
+      this._initRecommendInfo()
     }
   }
 </script>

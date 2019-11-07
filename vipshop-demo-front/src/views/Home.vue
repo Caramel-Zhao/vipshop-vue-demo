@@ -13,6 +13,7 @@ import Header from "../components/Home/Header/Header";
 import MinCategory from "../components/Home/MinCategory";
 import HomeBody from "../components/Home/HomeBody";
 import Loading from "../components/Common/Loading";
+import homeApi from "../apis/homeApi"
 export default {
   name: 'home',
   components: {
@@ -31,19 +32,17 @@ export default {
   methods: {
     changeCategoryFlag() {
       this.categoryFlag = !this.categoryFlag
+    },
+    async _initHomeData() {
+      this.homeInfo = await homeApi.getHomeInfo()
+    },
+    async _initMinCate() {
+      this.categoryInfo = await homeApi.getMinCateInfo()
     }
   },
-  created() {
-    fetch("http://localhost:3000/api/homeInfo").then((res) => {
-      res.json().then((data) => {
-        this.homeInfo = data
-      })
-    })
-    fetch("http://localhost:3000/api/categoryInfo").then((res) => {
-      res.json().then((data) => {
-        this.categoryInfo = data
-      })
-    })
+  beforeMount() {
+    this._initHomeData()
+    this._initMinCate()
   }
 }
 </script>

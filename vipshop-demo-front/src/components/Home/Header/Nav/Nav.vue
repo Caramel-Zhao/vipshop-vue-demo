@@ -3,7 +3,6 @@
     <div class="nav-items wrapper">
       <ul class="nav-items-con content">
         <NavItem v-for="(nav,i) in data" :key="i" :data="nav" />
-<!--        <li><a href="#" class="nav-item is-active">今日推荐</a></li>-->
       </ul>
     </div>
     <span @click="flag" class="nav-list iconfont">&#xe851;</span>
@@ -18,7 +17,8 @@
     props:["data","flag"],
     mounted() {
       new BScroll('.wrapper',{
-        scrollX: true
+        scrollX: true,
+        click: true
       })
     },
     components: {

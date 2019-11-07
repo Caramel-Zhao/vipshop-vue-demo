@@ -1,5 +1,5 @@
 <template>
-  <div>Appliance</div>
+  <div>App</div>
 </template>
 
 <script>

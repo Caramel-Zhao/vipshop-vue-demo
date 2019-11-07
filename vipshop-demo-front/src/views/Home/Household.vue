@@ -1,5 +1,5 @@
 <template>
-  <div>Household</div>
+  <div>Hou</div>
 </template>
 
 <script>

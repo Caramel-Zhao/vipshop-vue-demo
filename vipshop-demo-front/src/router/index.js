@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import homeRouter from './home'
-import loginRouter from './login'
+import homeRouter from './homeRouter'
+import loginRouter from './loginRouter'
+import categoryRouter from './categoryRouter'
+import lastRouter from './lastRouter'
 
 Vue.use(VueRouter)
 
@@ -11,7 +13,9 @@ const routes = [
     redirect: "/home"
   },
   loginRouter,
-  homeRouter
+  homeRouter,
+  categoryRouter,
+  lastRouter
 ]
 
 const router = new VueRouter({

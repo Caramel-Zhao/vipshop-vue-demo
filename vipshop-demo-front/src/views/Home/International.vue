@@ -1,5 +1,5 @@
 <template>
-  <div>International</div>
+  <div>Int</div>
 </template>
 
 <script>

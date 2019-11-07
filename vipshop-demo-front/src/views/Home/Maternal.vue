@@ -1,5 +1,5 @@
 <template>
-  <div>Maternal</div>
+  <div>Mate</div>
 </template>
 
 <script>

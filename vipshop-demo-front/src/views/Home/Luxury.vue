@@ -1,5 +1,5 @@
 <template>
-  <div>Luxury</div>
+  <div>Lux</div>
 </template>
 
 <script>

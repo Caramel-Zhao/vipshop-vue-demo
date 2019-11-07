@@ -1,5 +1,5 @@
 <template>
-  <div>Beauty</div>
+  <div>Bea</div>
 </template>
 
 <script>

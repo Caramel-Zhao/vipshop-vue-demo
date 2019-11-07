@@ -11,10 +11,6 @@ export default {
       component: () => import('@/views/Home/Recommend')
     },
     {
-      path: 'last',
-      component: () => import('@/views/Home/Last')
-    },
-    {
       path: 'beauty',
       component: () => import('@/views/Home/Beauty')
     },

@@ -16,5 +16,10 @@
 </script>
 
 <style lang="scss" scoped>
+  .router-link-active {
 
+    span {
+      color: #d34ba8!important;
+    }
+  }
 </style>
