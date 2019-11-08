@@ -1,10 +1,16 @@
 <template>
-  
+  <section>
+    <CaShopsSearch />
+  </section>
 </template>
 
 <script>
+  import CaShopsSearch from "./CaShops/CaShopsSearch";
   export default {
-    name: "CaShops"
+    name: "CaShops",
+    components: {
+      CaShopsSearch
+    }
   }
 </script>
 

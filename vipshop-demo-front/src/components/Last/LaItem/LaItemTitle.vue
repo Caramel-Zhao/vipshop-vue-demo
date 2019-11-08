@@ -1,13 +1,37 @@
 <template>
-  <img src="https://a.appsimg.com/upcb/2019/10/31/183/ias_157250904868868_694x166_100.jpg!75.webp" alt="">
+  <section class="wrap">
+    <img :src=data.img alt="">
+    <div class="brand-discount">到手价3折封顶</div>
+  </section>
 </template>
 
 <script>
   export default {
-    name: "LaItemtitle"
+    name: "LaItemtitle",
+    props: ["data"]
   }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+  .wrap {
+    position: relative;
 
+    .brand-discount {
+      width: 1.4rem;
+      height: .22rem;
+      border-radius: 0.24rem;
+      border: 1px solid #fff;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: .55rem;
+      line-height: 0.2rem;
+      font-size: 0.12rem;
+      color: #fff;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      justify-content: center;
+    }
+  }
 </style>

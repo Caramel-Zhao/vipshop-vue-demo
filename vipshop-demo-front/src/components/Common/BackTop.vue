@@ -1,16 +1,17 @@
 <template>
-  <div class="back-top">
-    <a href="" class="top-btn">
+  <div @click="backTop" class="back-top">
+    <span  class="top-btn">
       <span class="iconfont icon-jiantou">
 
       </span>
-    </a>
+    </span>
   </div>
 </template>
 
 <script>
   export default {
-    name: "BackTop"
+    name: "BackTop",
+    props: ["backTop"]
   }
 </script>
 

@@ -1,0 +1,121 @@
+{
+  "nav": [
+    {
+      "to": "today",
+      "title": "今日疯抢",
+      "num": "192"
+    },
+    {
+      "to": "tomorrow",
+      "title": "下期预告",
+      "num": "14"
+    }
+  ],
+  "todayList": [
+    {
+      "img": "https://a.appsimg.com/upcb/2019/10/31/183/ias_157250904868868_694x166_100.jpg!75.webp",
+      "list": [
+        {
+          "img": "https://a.appsimg.com/upload/merchandise/pdcvis/2019/05/08/123/5c8eb091-5e07-4513-99f1-1cba018c539d_202x202_100.jpg!75.webp",
+          "price": "14",
+          "old": "69"
+        },
+        {
+          "img": "https://a.appsimg.com/upload/merchandise/pdcvis/104218/2019/0830/53/fbc4aa0b-aead-4db1-8578-83988944b948_202x202_100.jpg!75.webp",
+          "price": "47",
+          "old": "159"
+        },
+        {
+          "img": "https://a.appsimg.com/upload/merchandise/pdcvis/2018/08/14/36/05c7d619-8c92-4580-ad10-9d69003e97d9_202x202_100.jpg!75.webp",
+          "price": "34",
+          "old": "129"
+        }
+      ],
+      "text": "森马家居服-最后疯抢专场"
+    },
+    {
+      "img": "https://a.appsimg.com/upcb/2019/10/31/137/ias_157252191488420_694x166_100.jpg!75.webp",
+      "list": [
+        {
+          "img": "https://a.appsimg.com/upload/merchandise/pdcvis/612262/2019/1106/190/6bc93c9a-a5b7-4e31-b4c2-9740ee7f1851_202x202_100.jpg!75.webp",
+          "price": "75",
+          "old": "499"
+        },
+        {
+          "img": "https://a.appsimg.com/upload/merchandise/pdcvis/612262/2019/1107/39/f1cf87bc-d2fa-418e-be85-9dfa70297f81_202x202_100.jpg!75.webp",
+          "price": "93",
+          "old": "719"
+        },
+        {
+          "img": "https://a.appsimg.com/upload/merchandise/pdcvis/612262/2019/1106/70/5be8c250-a8fa-486d-8bc0-c4e0b2b8c489_202x202_100.jpg!75.webp",
+          "price": "350",
+          "old": "2299"
+        }
+      ],
+      "text": "拓路者Pioneer Camp-最后疯抢专场"
+    },
+    {
+      "img": "https://a.appsimg.com/upcb/2019/10/30/40/ias_157243469049329_694x166_100.jpg!75.webp",
+      "list": [
+        {
+          "img": "https://a.appsimg.com/upload/merchandise/pdcvis/2019/11/06/20/f4438f7c-e575-4440-87d8-d686b95cebbd_202x202_100.jpg!75.webp",
+          "price": "78",
+          "old": "328"
+        },
+        {
+          "img": "https://a.appsimg.com/upload/merchandise/pdcvis/2019/09/26/126/6e2b6dda-b546-4c98-bd70-50dbdba3b94c_202x202_100.jpg!75.webp",
+          "price": "69.5",
+          "old": "489"
+        },
+        {
+          "img": "https://a.appsimg.com/upload/merchandise/pdcvis/2019/10/17/57/f7b343e6-7d31-4e2f-b3bb-ab91a6069249_202x202_100.jpg!75.webp",
+          "price": "49",
+          "old": "448"
+        }
+      ],
+      "text": "翰代维男女装-最后疯抢专场"
+    },
+    {
+      "img": "https://a.appsimg.com/upcb/2019/10/31/77/ias_157245297958367_694x166_100.jpg!75.webp",
+      "list": [
+        {
+          "img": "https://a.appsimg.com/upload/merchandise/pdcvis/2019/09/16/102/3d1ccffc-abb4-48d5-9488-31f8f5026db6_202x202_100.jpg!75.webp",
+          "price": "76",
+          "old": "339"
+        },
+        {
+          "img": "https://a.appsimg.com/upload/merchandise/pdcvis/2019/09/16/6/e5741d29-3231-469e-b2e6-d26d6f744fb7_202x202_100.jpg!75.webp",
+          "price": "68",
+          "old": "229"
+        },
+        {
+          "img": "https://a.appsimg.com/upload/merchandise/pdcvis/2019/09/16/46/d0f34856-4b4a-4ae1-b102-e7cd132dfc76_202x202_100.jpg!75.webp",
+          "price": "59",
+          "old": "269"
+        }
+      ],
+      "text": "Milli Millu女装-最后疯抢专场"
+    },
+    {
+      "img": "https://a.appsimg.com/upcb/2019/10/29/193/ias_157233482760144_694x166_100.jpg!75.webp",
+      "list": [
+        {
+          "img": "https://a.appsimg.com/upload/merchandise/pdcvis/2018/10/26/154/362b6ddb-0c17-45f2-8dd0-2cca83173371_202x202_100.jpg!75.webp",
+          "price": "59",
+          "old": "259"
+        },
+        {
+          "img": "https://a.appsimg.com/upload/merchandise/pdcvis/2018/11/21/136/1286099f-dad6-4a03-93c8-724e68c1184a_202x202_100.jpg!75.webp",
+          "price": "43",
+          "old": "429"
+        },
+        {
+          "img": "https://a.appsimg.com/upload/merchandise/pdcvis/2018/08/14/151/1333508a-b66a-4f55-ad22-94b1d3fc46dd_202x202_100.jpg!75.webp",
+          "price": "29",
+          "old": "159"
+        }
+      ],
+      "text": "宏达HONDAR 帽子围巾打底裤-最后疯抢专场"
+    }
+  ]
+}

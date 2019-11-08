@@ -4,6 +4,8 @@ import homeRouter from './homeRouter'
 import loginRouter from './loginRouter'
 import categoryRouter from './categoryRouter'
 import lastRouter from './lastRouter'
+import searchRouter from './searchRouter'
+import cartRouter from './cartRouter'
 
 Vue.use(VueRouter)
 
@@ -15,7 +17,9 @@ const routes = [
   loginRouter,
   homeRouter,
   categoryRouter,
-  lastRouter
+  lastRouter,
+  searchRouter,
+  cartRouter
 ]
 
 const router = new VueRouter({

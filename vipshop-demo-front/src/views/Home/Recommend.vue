@@ -15,7 +15,7 @@
   import ReAdv from "../../components/Recommend/ReAdv";
   import ReGrab from "../../components/Recommend/ReGrab";
   import ReLastGrab from "../../components/Recommend/ReLastGrab";
-  import ReToday from "../../components/Recommend/ReToday/index";
+  import ReToday from "../../components/Common/ReToday/index";
   import homeApi from "../../apis/homeApi";
   export default {
     name: "Recommend",

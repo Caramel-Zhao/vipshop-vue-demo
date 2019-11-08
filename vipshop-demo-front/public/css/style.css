@@ -84,7 +84,7 @@ nav {
     height: 100%; }
 
 .category {
-  height: 1.78rem; }
+  height: auto; }
   .category .category-wrap {
     background-image: url(../img/15579224524240.png);
     background-size: 100% 100%;
@@ -703,9 +703,6 @@ nav {
     width: 1.15rem;
     text-align: center;
     box-sizing: border-box; }
-    .final-nav a:first-of-type {
-      color: #f03190;
-      border-bottom: .02rem solid #f03190; }
 
 .sub-tital {
   flex-direction: column; }
@@ -729,8 +726,9 @@ nav {
     align-items: center;
     flex-wrap: wrap;
     background-color: #fff;
+    border-radius: .05rem;
     height: 2.69rem; }
-    .sub-item .sub-con > img {
+    .sub-item .sub-con > .wrap > img {
       display: block;
       width: 3.47rem;
       height: .83rem;

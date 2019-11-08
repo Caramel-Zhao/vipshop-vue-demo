@@ -1,7 +1,7 @@
 <template>
 <!--  class="current"  -->
   <li>
-    <router-link :to=data.src class="channel-item">
+    <router-link @click.native="flag" :to=data.src class="channel-item">
       <i :style=data.img></i>
       <span>{{data.title}}</span>
     </router-link>
@@ -11,7 +11,7 @@
 <script>
   export default {
     name: "MinCategoryItem",
-    props: ["data"]
+    props: ["data", "flag"]
   }
 </script>
 

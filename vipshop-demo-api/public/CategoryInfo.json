@@ -6,7 +6,7 @@
       "title": "今日推荐"
     },
     {
-      "src": "last",
+      "src": "/last/today",
       "img": "background-image: url('http://h2.appsimg.com/b.appsimg.com/upload/momin/2018/08/09/77/1533802051022.png')",
       "title": "最后疯抢"
     },

@@ -62,4 +62,46 @@ router.get('/categoryProductsInfo', (req, res, next) => {
   })
 });
 
+router.get('/lastInfo', (req, res, next) => {
+  let file = path.join(__dirname, "../public/LastInfo.json");
+  fs.readFile(file, 'utf-8', (err, data) => {
+    if (err) {
+      res.send({
+        status: -1,
+        msg: err
+      })
+    } else {
+      res.send(data)
+    }
+  })
+});
+
+router.get('/hotSearch', (req, res, next) => {
+  let file = path.join(__dirname, "../public/HotSearch.json");
+  fs.readFile(file, 'utf-8', (err, data) => {
+    if (err) {
+      res.send({
+        status: -1,
+        msg: err
+      })
+    } else {
+      res.send(data)
+    }
+  })
+});
+
+router.get('/internationalInfo', (req, res, next) => {
+  let file = path.join(__dirname, "../public/InternationalInfo.json");
+  fs.readFile(file, 'utf-8', (err, data) => {
+    if (err) {
+      res.send({
+        status: -1,
+        msg: err
+      })
+    } else {
+      res.send(data)
+    }
+  })
+});
+
 module.exports = router;

@@ -1,9 +1,9 @@
 <template>
   <section class="category-search">
-    <button class="search-btn">
+    <router-link tag="button" to="/search" class="search-btn">
       <i class="icon-search"></i>
       <span>搜索品牌或产品</span>
-    </button>
+    </router-link>
   </section>
 </template>
 

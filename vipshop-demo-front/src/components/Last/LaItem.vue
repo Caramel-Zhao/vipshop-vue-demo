@@ -1,9 +1,9 @@
 <template>
   <div class="sub-item">
     <div class="sub-con">
-      <LaItemTitle />
-      <LaItemList />
-      <LaItemText />
+      <LaItemTitle :data="data" />
+      <LaItemList :data="data" />
+      <LaItemText :data="data" />
     </div>
   </div>
 </template>
@@ -18,7 +18,8 @@
       LaItemTitle,
       LaItemList,
       LaItemText
-    }
+    },
+    props: ["data"]
   }
 </script>
 

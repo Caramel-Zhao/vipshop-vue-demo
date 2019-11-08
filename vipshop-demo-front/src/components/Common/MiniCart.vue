@@ -1,11 +1,11 @@
 <template>
-  <div class="min-cart">
+  <router-link tag="div" class="min-cart" to="/cart">
     <a href="" class="cart-btn">
       <span class="iconfont icon-iconfontcart-copy">
 
       </span>
     </a>
-  </div>
+  </router-link>
 </template>
 
 <script>

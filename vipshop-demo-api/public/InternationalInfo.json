@@ -1,0 +1,187 @@
+{
+  "bannerImg": [
+    "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/08/30/67/15671641941819.jpg"
+  ],
+  "menuListTop": [
+    {
+      "id": "menu001",
+      "src": "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/11/07/195/15730985599349.jpg"
+    },
+    {
+      "id": "menu002",
+      "src": "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/11/07/2/15730986845171.jpg"
+    },
+    {
+      "id": "menu003",
+      "src": "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/11/07/85/15730987396513.jpg"
+    },
+    {
+      "id": "menu004",
+      "src": "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/11/07/53/15730988346912.jpg"
+    },
+    {
+      "id": "menu005",
+      "src": "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/11/07/153/15730988929936.jpg"
+    }
+  ],
+  "menuListBottom": [
+    {
+      "id": "menu006",
+      "src": "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/11/07/60/15730989562281.jpg"
+    },
+    {
+      "id": "menu007",
+      "src": "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/11/07/187/15730990182270.jpg"
+    },
+    {
+      "id": "menu008",
+      "src": "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/11/07/17/15730990724928.jpg"
+    },
+    {
+      "id": "menu009",
+      "src": "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/11/07/88/15730991329050.jpg"
+    },
+    {
+      "id": "menu010",
+      "src": "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/11/07/94/15730991829342.jpg"
+    }
+  ],
+  "advInfo": {
+    "title": "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/11/01/29/15726016037462.jpg",
+    "content": [
+      "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/11/05/190/15729184791938.jpg",
+      "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/11/05/143/15729400695033.jpg",
+      "http://h2.appsimg.com/a.appsimg.com/upload/flow/2019/11/05/108/15729187115691.jpg"
+    ]
+  },
+  "grabInfo": {
+    "grabBG": "https://h2.appsimg.com/b.appsimg.com/upload/mst/2019/06/25/23/mst_a4f3c642dae2cae7067cf6923e26b4d7_750x450_90.jpg",
+    "grabInfo": [
+      {
+        "img": "https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcimg/2019/08/14/70/628233491565770597762_166x166_90.jpg",
+        "shopImg": "https://h2.appsimg.com/a.appsimg.com/upload/brandcool/0/1aa04c8a09fa4f49a51a5e340b7d04cb/10007180/primary_80x40_90.png",
+        "price": 159
+      },
+      {
+        "img": "https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcimg/2019/06/11/127/14701041560243567154_166x166_90.jpg",
+        "shopImg": "https://h2.appsimg.com/a.appsimg.com/upload/brandcool/0/569f15b965d448c2bb8ae49dc8e59aff/10033677/primary_80x40_90.png",
+        "price": 46
+      },
+      {
+        "img": "https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdc/784/270/296188102577270784/11/8801008600603-5_166x166_90.jpg",
+        "shopImg": "https://h2.appsimg.com/a.appsimg.com/upload/brandcool/0/60a660ccd20a413295fd288d5e65fd16/10027409/primary_80x40_90.png",
+        "price": 50
+      },
+      {
+        "img": "https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcvis/2019/06/10/120/231a33ef-f107-4197-9627-5cc887e6126e_166x166_90.jpg",
+        "shopImg": "https://h2.appsimg.com/a.appsimg.com/upload/brandcool/0/60a660ccd20a413295fd288d5e65fd16/10027409/primary_80x40_90.png",
+        "price": 62
+      }
+    ]
+  },
+  "lastGrabInfo": {
+    "lastGrabBG": "https://h2.appsimg.com/b.appsimg.com/upload/mst/2019/11/07/70/mst_0898713dffe60e6a81e8d596df39c5bb_750x482_90.jpg",
+    "lastGrabInfo": [
+      {
+        "img": "https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcimg/2019/11/07/113/79958401573105382916_224x224_90.jpg",
+        "shopImg": "",
+        "num": "",
+        "price": 39
+      },
+      {
+        "img": "https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcvis/2019/09/18/191/91fa2d38-f080-40ba-881d-b4d605c0d40a-1_224x224_90.jpg",
+        "shopImg": "",
+        "num": "",
+        "price": 179
+      },
+      {
+        "img": "https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcimg/2019/08/09/176/525183331565319130128_224x224_90.jpg",
+        "shopImg": "",
+        "num": "",
+        "price": 79
+      }
+    ]
+  },
+  "todayInfo": [
+    {
+      "img": "https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/11/01/5/ias_157260903168078_1135x545_85.jpg",
+      "title": "迪赛尼斯DESIGNICE品牌特卖日",
+      "time": 2,
+      "sell": 4,
+      "tag": "折封顶",
+      "text": "|  全场折上3折起"
+    },
+    {
+      "img": "https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/11/01/128/ias_157260264984969_1135x545_85.jpg",
+      "title": "珂莱蒂尔Koradior女装赢家集团混合专场",
+      "time": 2,
+      "sell": 0.4,
+      "tag": "折起",
+      "text": "|  全场折上2.4折起"
+    },
+    {
+      "img": "https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/11/01/35/ias_157259664845460_1135x545_85.jpg",
+      "title": "百丽集团-他她百思图森达男女鞋包专场",
+      "time": 2,
+      "sell": 5,
+      "tag": "折封顶",
+      "text": "|  全场折上2.7折起"
+    },
+    {
+      "img": "https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/11/04/184/ias_157286075319001_1135x545_85.jpg",
+      "title": "迪士尼宝宝婴幼童装今日特卖专场",
+      "time": 2,
+      "sell": 1.2,
+      "tag": "折起",
+      "text": "|  全场折上3.1折起"
+    },
+    {
+      "img": "https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/07/31/19/ias_5fd81d12-73eb-4441-893c-dfc996be7b40_1135x545_85.jpg",
+      "title": "古驰GUCCI饰品精选专场",
+      "time": null,
+      "sell": 5,
+      "tag": "折起",
+      "text": ""
+    },
+    {
+      "img": "https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/10/30/96/ias_157242590739332_1135x545_85.jpg",
+      "title": "价同11.11-罗莱家纺专场",
+      "time": 2,
+      "sell": 1,
+      "tag": "折起",
+      "text": "|  价位同11.11 折上5折起"
+    },
+    {
+      "img": "https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/11/04/194/ias_157283534174251_1135x545_85.jpg",
+      "title": "戴森DYSON海外生活电器专场",
+      "time": 2,
+      "sell": 2.5,
+      "tag": "折起",
+      "text": ""
+    },
+    {
+      "img": "https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/11/03/98/ias_157276192770480_1135x545_85.jpg",
+      "title": "澳洲BLACKMORES健康营养专场",
+      "time": 2,
+      "sell": 2.8,
+      "tag": "折封顶",
+      "text": ""
+    },
+    {
+      "img": "https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/11/05/3/ias_157294964963947_1135x545_85.jpg",
+      "title": "阔步图书特惠专场-好书提前购",
+      "time": 2,
+      "sell": 0.7,
+      "tag": "折起",
+      "text": "全场折上5折"
+    },
+    {
+      "img": "https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/10/29/28/ias_157233465973773_1135x545_85.jpg",
+      "title": "皮尔·卡丹羊绒羊毛内衣好货直降专场",
+      "time": 2,
+      "sell": 3.5,
+      "tag": "折封顶",
+      "text": ""
+    }
+  ]
+}

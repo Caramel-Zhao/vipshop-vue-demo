@@ -1,7 +1,6 @@
 <template>
   <div class="final-nav">
-    <LaNavItem />
-    <LaNavItem />
+    <LaNavItem v-for="(item,i) in data" :key="i" :data="item" />
   </div>
 </template>
 
@@ -11,10 +10,14 @@
     name: "LaNav",
     components: {
       LaNavItem
-    }
+    },
+    props: ["data"]
   }
 </script>
 
 <style scoped>
-
+  .final-nav .router-link-active {
+    color: #f03190;
+    border-bottom: .02rem solid #f03190;
+  }
 </style>

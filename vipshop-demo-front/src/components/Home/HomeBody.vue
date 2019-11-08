@@ -3,7 +3,7 @@
     <router-view />
     <Footer :data="data" />
     <MiniCart />
-    <BackTop />
+    <BackTop v-if="showBackTop" :backTop="backTop" />
   </section>
 </template>
 
@@ -18,7 +18,7 @@
       MiniCart,
       BackTop
     },
-    props: ["data"]
+    props: ["data", "backTop", "showBackTop"]
   }
 </script>
 

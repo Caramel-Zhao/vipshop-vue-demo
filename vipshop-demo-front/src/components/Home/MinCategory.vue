@@ -6,7 +6,7 @@
         <span @click="flag" class="nav-list iconfont icon-up"></span>
       </div>
       <ul>
-        <MinCategoryItem v-for="(item,i) in data.select" :key="i" :data="item" />
+        <MinCategoryItem v-for="(item,i) in data.select" :key="i" :data="item" :flag="flag" />
       </ul>
     </div>
     <div class="more-chosen-channel">

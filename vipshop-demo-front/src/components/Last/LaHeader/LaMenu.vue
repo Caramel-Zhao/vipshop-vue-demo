@@ -8,7 +8,9 @@
   import LaMenuItem from "./LaMenuItem";
   export default {
     name: "LaMenu",
-    LaMenuItem
+    components: {
+      LaMenuItem
+    }
   }
 </script>
 

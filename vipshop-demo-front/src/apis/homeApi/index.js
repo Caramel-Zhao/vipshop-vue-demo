@@ -3,6 +3,7 @@ import { BASEURL } from '../../commons/Config'
 const HOMEINFOURL = `${BASEURL}/homeInfo`
 const MINCATEINFOURL = `${BASEURL}/categoryInfo`
 const RECOINFOURL = `${BASEURL}/recommendInfo`
+const INTERINFOURL = `${BASEURL}/internationalInfo`
 //recommendInfo
 
 export default {
@@ -18,6 +19,11 @@ export default {
   },
   async getRecommendInfo(){
     let res = await fetch(RECOINFOURL)
+    let data = await res.json()
+    return data
+  },
+  async getInternationalInfo(){
+    let res = await fetch(INTERINFOURL)
     let data = await res.json()
     return data
   }

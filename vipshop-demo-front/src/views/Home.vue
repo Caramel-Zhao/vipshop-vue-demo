@@ -2,7 +2,7 @@
   <section>
     <Header :flag="changeCategoryFlag" :data="homeInfo" />
     <MinCategory v-if="categoryFlag" :data="categoryInfo" :flag="changeCategoryFlag" />
-    <HomeBody v-else-if="homeInfo" :data="homeInfo.footerInfo" />
+    <HomeBody v-else-if="homeInfo" :data="homeInfo.footerInfo" :showBackTop="showBackTop" :backTop="backTop" />
     <Loading v-else />
   </section>
 </template>
@@ -26,7 +26,8 @@ export default {
     return {
       homeInfo: null,
       categoryFlag: false,
-      categoryInfo: null
+      categoryInfo: null,
+      showBackTop: false
     }
   },
   methods: {
@@ -38,11 +39,32 @@ export default {
     },
     async _initMinCate() {
       this.categoryInfo = await homeApi.getMinCateInfo()
+    },
+    backTop() {
+      if (document.documentElement.scrollTop) {
+        document.documentElement.scrollTop = 0
+      } else if (window.pageYOffset) {
+        window.pageYOffset = 0
+      } else {
+        document.body.scrollTop = 0
+      }
+      this.showBackTop = false
+    },
+    handleScroll() {
+      let scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
+      if (scrollTop >= 1100) {
+        this.showBackTop = true
+      } else {
+        this.showBackTop = false
+      }
     }
   },
   beforeMount() {
     this._initHomeData()
     this._initMinCate()
+  },
+  mounted() {
+    window.addEventListener("scroll", this.handleScroll)
   }
 }
 </script>
