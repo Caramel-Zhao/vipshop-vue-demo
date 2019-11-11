@@ -1,13 +1,13 @@
 <template>
   <div class="tel-input input">
-    <label for="tel">{{data.topInput}}</label><input type="text" id="tel" :placeholder=data.topHolder>
+    <label for="tel">{{data.topInput}}</label><input type="text" v-model="loginData.email" id="tel" :placeholder=data.topHolder>
   </div>
 </template>
 
 <script>
   export default {
     name: "TopInput",
-    props: ["data"]
+    props: ["data", "loginData"]
   }
 </script>
 

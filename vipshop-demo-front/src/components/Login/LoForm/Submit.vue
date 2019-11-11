@@ -1,11 +1,11 @@
 <template>
-  <a class="submit-btn" href="#">{{data.subBtn}}</a>
+  <a class="submit-btn" @click="_handleToLogin">{{data.subBtn}}</a>
 </template>
 
 <script>
   export default {
     name: "Submit",
-    props: ["data"]
+    props: ["data", "_handleToLogin"]
   }
 </script>
 

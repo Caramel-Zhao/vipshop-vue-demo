@@ -6,6 +6,8 @@ import store from './store'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'swiper/dist/css/swiper.css'
 
+import 'vant/lib/button/style'
+
 Vue.use(VueAwesomeSwiper)
 
 

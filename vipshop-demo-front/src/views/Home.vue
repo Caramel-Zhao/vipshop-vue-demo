@@ -1,6 +1,6 @@
 <template>
   <section>
-    <Header :flag="changeCategoryFlag" :data="homeInfo" />
+    <Header :email="email" :flag="changeCategoryFlag" :data="homeInfo" />
     <MinCategory v-if="categoryFlag" :data="categoryInfo" :flag="changeCategoryFlag" />
     <HomeBody v-else-if="homeInfo" :data="homeInfo.footerInfo" :showBackTop="showBackTop" :backTop="backTop" />
     <Loading v-else />
@@ -13,7 +13,8 @@ import Header from "../components/Home/Header/Header";
 import MinCategory from "../components/Home/MinCategory";
 import HomeBody from "../components/Home/HomeBody";
 import Loading from "../components/Common/Loading";
-import homeApi from "../apis/homeApi"
+import homeApi from "../apis/homeApi";
+import { mapGetters } from 'vuex';
 export default {
   name: 'home',
   components: {
@@ -21,6 +22,11 @@ export default {
     Loading,
     MinCategory,
     HomeBody
+  },
+  computed: {
+    ...mapGetters({
+      email: 'GET_EMAIL'
+    })
   },
   data(){
     return {
@@ -52,11 +58,7 @@ export default {
     },
     handleScroll() {
       let scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
-      if (scrollTop >= 1100) {
-        this.showBackTop = true
-      } else {
-        this.showBackTop = false
-      }
+      this.showBackTop = scrollTop >= 1100;
     }
   },
   beforeMount() {
@@ -65,6 +67,7 @@ export default {
   },
   mounted() {
     window.addEventListener("scroll", this.handleScroll)
+    this.$store.dispatch('INIT_EMAIL')
   }
 }
 </script>

@@ -1,0 +1,74 @@
+{
+  "orders": [
+    {
+      "icon": "icon-pay",
+      "text": "待付款"
+    },
+    {
+      "icon": "icon-Delivergoods-",
+      "text": "待收获"
+    },
+    {
+      "icon": "icon-rectangle21copy12",
+      "text": "全部订单"
+    }
+  ],
+  "menu": [
+    {
+      "sto": "",
+      "title": "我的收藏"
+    },
+    {
+      "sto": "",
+      "title": "购物车历史"
+    },
+    {
+      "sto": "",
+      "title": "浏览历史"
+    },
+    {
+      "sto": "",
+      "title": "申请退换"
+    },
+    {
+      "sto": "",
+      "title": "零钱"
+    },
+    {
+      "sto": "",
+      "title": "唯品花"
+    },
+    {
+      "sto": "",
+      "title": "优惠券"
+    },
+    {
+      "sto": "",
+      "title": "我的唯品币"
+    },
+    {
+      "sto": "",
+      "title": "收货地址"
+    },
+    {
+      "sto": "",
+      "title": "修改登陆密码"
+    },
+    {
+      "sto": "",
+      "title": "管理支付密码"
+    },
+    {
+      "sto": "",
+      "title": "绑定手机"
+    },
+    {
+      "sto": "",
+      "title": "实名认证"
+    },
+    {
+      "sto": "",
+      "title": "我的银行卡"
+    }
+  ]
+}
