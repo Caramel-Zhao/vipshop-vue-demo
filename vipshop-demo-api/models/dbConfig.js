@@ -1,6 +1,4 @@
 const mongoose = require("mongoose")
-const nodeMailer = require('nodemailer');
-
 
 //step1: 通过mongoose连接mongodb 27017
 mongoose.connect("mongodb://127.0.0.1:27017/users",{
@@ -13,6 +11,9 @@ mongoose.connect("mongodb://127.0.0.1:27017/users",{
 mongoose.connection.on("connected",()=>{
   console.log("mongodb is connected")
 })
+
+
+const nodeMailer = require('nodemailer');
 
 const Email = {
   config : {

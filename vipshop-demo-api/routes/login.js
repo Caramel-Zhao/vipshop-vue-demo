@@ -6,9 +6,6 @@ const { Email } = require('../models/dbConfig')
 
 router.post('/', async (req, res, next) => {
   let { email , verify } = req.body;
-  console.log(email);
-  console.log(typeof verify);
-  console.log(typeof req.session.verify);
   if( verify !== req.session.verify ){
     res.send({
       msg : '验证码错误',

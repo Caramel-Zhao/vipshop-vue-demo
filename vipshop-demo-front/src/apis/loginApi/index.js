@@ -1,4 +1,5 @@
-const BASE_URL = "http://122.51.57.152:3000"
+// const BASE_URL = "http://122.51.57.152:3000"
+const BASE_URL = "http://localhost:3000"
 
 const LOGIN_URL = `${BASE_URL}/login`;
 const VERIFY_URL = `${BASE_URL}/login/verify`;
